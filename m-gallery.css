@@ -14,8 +14,21 @@ h1 {
   font-weight: 600;
   font-style: normal;
 }
-/* Position text */
+/* Position text in center of img */
 
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  text-shadow: 3px -1px 1px #ff0000;
+}
 /* Flexbox - center items */
 
 .flexbox {
